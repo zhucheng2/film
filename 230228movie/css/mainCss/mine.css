@@ -1,0 +1,222 @@
+.top {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>div {
+    line-height: 5rem;
+    width: 7.5rem;
+}
+
+.top>div img {
+    vertical-align: middle;
+    width: 2.625rem;
+    margin-left: .625rem;
+}
+
+.top>img {
+    width: 2.625rem;
+}
+
+.top>span {
+    padding-left: 5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.mine-card {
+    display: flex;
+    flex-direction: column;
+    background: rgb(247, 49, 113);
+    border-radius: .625rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.mine-card>div {
+    display: flex;
+    width: 40.625rem;
+    height: 7.5rem;
+    padding: 1.875rem 1.875rem 0;
+}
+
+.mine-card>div>div {
+    margin-left: 1.25rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.mine-card>div>img {
+    width: 6.25rem;
+    border-radius: .625rem;
+}
+
+.mine-card ul {
+    display: flex;
+    width: 44.375rem;
+    margin: auto;
+    padding: 2.5rem 0;
+}
+
+.mine-card ul li {
+    border-right: .0625rem solid #fff;
+    text-align: center;
+}
+
+.mine-card ul li:last-child {
+    border-width: 0;
+}
+
+.level-icon::after {
+    content: '';
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: .75rem;
+    background: url("../../assets/icon/crown_icon.png") no-repeat 0 .875rem/76%;
+}
+
+.gold::before,
+.jifen {
+    padding: .125rem 1.25rem;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.gold::before {
+    content: '黄金会员';
+}
+
+.jifen::before {
+    content: '积分';
+}
+
+.yikan::after,
+.xiangkan::after,
+.taolun::after,
+.jilu::after {
+    display: block;
+    width: 10.625rem;
+}
+
+.yikan::after {
+    content: "已看";
+}
+
+.xiangkan::after {
+    content: "想看";
+}
+
+.taolun::after {
+    content: "讨论";
+}
+
+.jilu::after {
+    content: "记录";
+}
+
+.bianju {
+    padding: 1.25rem;
+    font-size: 1.625rem;
+    line-height: 2.5rem;
+}
+
+.bianju::after {
+    content: '';
+    width: 2.2rem;
+    height: 2.4rem;
+    margin: .5rem -1.5rem 0 0;
+    background: url('../../assets/icon/right_icon.png') no-repeat 0 0/36%;
+}
+
+.huiyuan,
+.dingdan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.huiyuan {
+    padding-left: 5rem;
+    background: rgb(69, 67, 67) url('../../assets/icon/diamand_icon.png') no-repeat 1.25rem 2.5rem/6%;
+}
+
+.dingdan {
+    padding-left: 4.2rem;
+    background: rgb(69, 67, 67) url('../../assets/icon/order_icon.png') no-repeat 1.25rem 2rem/4%;
+}
+
+.huiyuan .zhongxin,
+.dingdan {
+    font-size: 1.875rem;
+    line-height: 2.75rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(69, 67, 67);
+}
+
+.list a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.25rem 2.5rem;
+    color: #fff;
+}
+
+.list .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.list img {
+    width: 2.5rem;
+}
+
+.huiyuan>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.kigong {
+    margin-right: -12rem;
+}
+
+.collect,
+.yinhangka,
+.juchang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4.2rem;
+    margin: .125rem 0;
+    font-size: 1.625rem;
+    line-height: 2.5rem;
+    background: rgb(69, 67, 67) no-repeat 1.25rem 2rem/4%;
+}
+
+.collect {
+    background-image: url('../../assets/icon/collect_icon.png');
+}
+
+.yinhangka {
+    background-image: url('../../assets/icon/card_icon.png');
+}
+
+.juchang {
+    background-image: url('../../assets/icon/theatre_icon.png');
+}
