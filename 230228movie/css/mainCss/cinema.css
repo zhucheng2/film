@@ -1,0 +1,46 @@
+.top {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>span {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.top>img {
+    width: 2.125rem;
+    margin: 0 1.25rem;
+}
+
+.cinema-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.75rem;
+    background-color: #464545;
+}
+
+.cinema-nav li {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    flex-basis: 5.625rem;
+    height: 2.5rem;
+}
+
+.cinema-nav li:after {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 1.875rem;
+    line-height: 1.875rem;
+    background: url("../../assets/icon/option_icon.png") no-repeat 6px 7px/50%;
+
+}
+
+.film-list {
+    padding-bottom: 6.875rem;
+}
